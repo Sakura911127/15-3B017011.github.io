@@ -85,6 +85,7 @@ nav ul li a:hover{
     left: 170px;
     color: white;
     font-size: 2.3rem;
+    font-weight: 600;
     z-index: -80;
 }
 
@@ -92,7 +93,7 @@ footer{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 0px 30px 0px 30px;
-    top: 800px;
+    top: 700px;
 }
 
 footer hr{
@@ -100,16 +101,18 @@ footer hr{
 }
 
 .contact{
-    padding: 50px;
+    padding: 25px;
 }
 
 .contact img{
     position: relative;
-    left: 650px;
+    left: 645px;
     width: 2.5%;
     height: 2.5%;
 }
 
-.item ul{
-    display: flex;
+.contact p{
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
 }
